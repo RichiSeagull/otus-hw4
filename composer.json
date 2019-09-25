@@ -1,0 +1,21 @@
+{
+  "name": "richieseagull/php",
+  "version": "1.0.0",
+  "description": "test package",
+  "authors": [
+    {
+      "name": "Richie Seagull",
+      "role": "Student",
+      "email": "richie.seagull@gmail.com",
+      "homepage": "https://github.com/RichiSeagull"
+    }
+  ],
+  "require": {
+    "php": ">=7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Entities\\HomeWorks\\": "src/entities/exercises"
+    }
+  }
+}
